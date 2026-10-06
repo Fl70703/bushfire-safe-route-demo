@@ -1,0 +1,49 @@
+.navigation-rerouted {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 393px;
+  height: 852px;
+  overflow: hidden;
+  border-radius: 40px;
+  background: #f8f6f8;
+  transform-origin: top left;
+}
+
+.navigation-rerouted__map-canvas {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 393px;
+  height: 852px;
+  pointer-events: none;
+}
+
+.navigation-rerouted__current-direction {
+  position: absolute;
+  z-index: 2;
+  top: 482px;
+  left: 159px;
+  display: block;
+  width: 69px;
+  height: 69px;
+}
+
+.navigation-rerouted__exit {
+  position: absolute;
+  z-index: 3;
+  top: 756px;
+  left: 322px;
+  width: 55px;
+  height: 55px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
+}
+
+.navigation-rerouted__exit:focus-visible {
+  outline: 2px solid #000;
+  outline-offset: 2px;
+}
